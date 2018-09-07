@@ -1,0 +1,10 @@
+- title: Home
+  url: /
+- title: About
+  children:
+    - title: How to Join
+      url: /joining/
+    - title: Current Members
+      url: /members/
+- title: Projects
+  url: /projects/
