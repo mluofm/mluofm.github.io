@@ -1,0 +1,23 @@
+officers:
+  - title: President
+    name: Marshal Hayes
+    major: Math & CS
+    email: mhayes8@memphis.edu
+    image: "assets/images/marshal.jpeg"
+  - title: Vice President
+    name: VACANT
+  - title: Treasurer
+    name: VACANT
+  - title: Faculty Sponsor
+    name: VACANT
+
+members:
+  - name: Marshal Hayes
+    major: Math & CS
+    title: Member
+  - name: Kareem Dasilva
+    major: Computer Science
+    title: Member
+  - name: Ryan Wickman
+    title: Member
+    major: Computer Science
