@@ -1,10 +1,6 @@
 - title: Home
   url: /
 - title: About
-  children:
-    - title: How to Join
-      url: /joining/
-    - title: Current Members
-      url: /members/
+  url: /about/
 - title: Projects
   url: /projects/
