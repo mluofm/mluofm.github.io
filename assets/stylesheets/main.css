@@ -1,0 +1,31 @@
+.team-member-item {
+  min-width: 200px;
+  max-width: 200px;
+  padding: .5em;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+}
+  .team-member-item img {
+    max-height: 150px;
+    max-width: 150px;
+  }
+
+section.featured {
+  width: 100%;
+  height: 75vh;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.55),
+    rgba(0, 0, 0, 0.55)
+  ), url("../images/involved.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+  section.featured .row {
+    margin: auto;
+    color: white;
+    max-width: 450px;
+    text-align: center;
+    padding: 25vh 0 25vh 0;
+  }
