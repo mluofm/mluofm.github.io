@@ -1,4 +1,4 @@
-<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}">{{ site.title.short }}</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -20,5 +20,9 @@
       {% else %}<li class="nav-item"><a class="nav-link" href="{{ item.url }}">{{ item.title }}</a></li>{% endif %}
       {% endfor %}
     </ul>
+    <span class="navbar-text">
+      {% if site.social.github %}<a href="//github.com/{{ site.social.github }}"><i class="fab fa-github fa-lg"></i></a>{% endif %}
+      {% if site.social.twitter %}<a href="//twitter.com/{{ site.social.twitter }}"><i class="fab fa-twitter fa-lg"></i></a>{% endif %}
+    </span>
   </div>
 </nav>
