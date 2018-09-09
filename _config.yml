@@ -16,9 +16,12 @@
 title:
   long: Machine Learning at the University of Memphis
   short: "ML@UofM"
-description: Machine Learning at The University of Memphis, the student-lead organization
+description: The student-lead Machine Learning club at the University of Memphis
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+social:
+  github: mluofm
 
 # Build settings
 markdown: kramdown
