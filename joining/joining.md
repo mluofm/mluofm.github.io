@@ -13,7 +13,7 @@ In order to be a part of our organization, the following requirements must be me
   - All students must have and maintain a cumulative GPA of at least 2.0
   - All students must have and maintain a good standing with the University
 - Faculty, staff, or community persons whose interests align with ours
-- All parties must read and agree to our [Bylaws]({{ site.url }}{{ site.baseurl }}/Bylaws.pdf).
+- All parties must read and agree to our [Bylaws]({{ site.url }}{{ site.baseurl }}/Bylaws.pdf)
 
 ## Apply for Membership
 
