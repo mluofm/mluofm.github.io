@@ -26,7 +26,7 @@ permalink: /about/
       {% for officer in site.data.team.officers %}
       <div class="p-1 m-auto">
         <div class="team-member-item text-center">
-          <img class="img-fluid rounded mb-1" src="{% if officer.image %}{{ officer.image | absolute_url }}{% else %}{{ 'assets/images/person.png' | absolute_url }}{% endif %}"/>
+          <img class="img-fluid rounded mb-3" src="{% if officer.image %}{{ officer.image | absolute_url }}{% else %}{{ 'assets/images/person.png' | absolute_url }}{% endif %}"/>
           <h5>{{ officer.name }}</h5>
           {% if officer.email %}<a href="mailto:{{ officer.email }}">{{ officer.email }}</a>{% else %}<a href="#">Email not provided</a>{% endif %}
           {% if officer.major %}<p>{{ officer.major }}</p>{% else %}<p>Major not provided</p>{% endif %}
@@ -38,7 +38,7 @@ permalink: /about/
   </div>
 
   <hr />
-  
+
   <div class="text-center">
     <h2>Members</h2>
 
@@ -46,7 +46,7 @@ permalink: /about/
       {% for member in site.data.team.members %}
       <div class="p-1 m-auto">
         <div class="team-member-item text-center">
-          <img class="img-fluid rounded mb-1" src="{% if officer.image %}{{ officer.image | absolute_url }}{% else %}{{ 'assets/images/person.png' | absolute_url }}{% endif %}"/>
+          <img class="img-fluid rounded mb-3" src="{% if officer.image %}{{ officer.image | absolute_url }}{% else %}{{ 'assets/images/person.png' | absolute_url }}{% endif %}"/>
           <h5>{{ member.name }}</h5>
           {% if member.email %}<a href="mailto:{{ member.email }}">{{ member.email }}</a>{% else %}<a href="#">Email not provided</a>{% endif %}
           {% if member.major %}<p>{{ member.major }}</p>{% else %}<p>Major not provided</p>{% endif %}
