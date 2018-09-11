@@ -1,15 +1,21 @@
 ---
 ---
 
+// Bootstrap Variable Overrides and Functions
+
 $body-bg: #fff;
 $theme-colors: (
   "primary": rgb(161, 95,	251),
-  "danger": #ff4136
+  "danger": #ff4136,
+  "teal-deer": #96E6B3,
+  "lemon-yellow": #F7F052
 );
 
 @function theme-color($key: "primary") {
   @return map-get($theme-colors, $key);
 }
+
+// Custom Styling
 
 .team-member-item {
   min-width: 200px;
@@ -21,37 +27,42 @@ $theme-colors: (
     max-width: 150px;
   }
 
-section.featured {
-  width: 100%;
-  height: 75vh;
+.bg-involved {
+  position: relative;
+  height: calc(100vh - 56px);
   background: linear-gradient(
-    rgba(0, 0, 0, 0.55),
-    rgba(0, 0, 0, 0.55)
+    rgba(0, 0, 0, 0.45),
+    rgba(0, 0, 0, 0.45)
   ), url("../images/involved.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
   background-attachment: fixed;
 }
-  section.featured .row {
-    margin: auto;
-    color: white;
-    max-width: 450px;
-    text-align: center;
-    padding: 25vh 0 25vh 0;
+  .bg-involved h1, h2, h3, h4 {
+    color: #fff;
   }
+  .bg-involved p, a {
+    color: #eee;
+  }
+
 
 .featured {
   padding: 2em;
 }
   .featured h2 {
     padding-bottom: .8em;
-    color: #fff;
   }
 
 .rounded-container {
   padding: 15px;
   border-radius: 1em;
+}
+
+.centered {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 @import 'bootstrap/scss/bootstrap';
