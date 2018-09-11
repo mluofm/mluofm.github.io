@@ -30,7 +30,7 @@ permalink: /about/
           <h5>{{ officer.name }}</h5>
           {% if officer.email %}<a href="mailto:{{ officer.email }}">{{ officer.email }}</a>{% else %}<a href="#">Email not provided</a>{% endif %}
           {% if officer.major %}<p>{{ officer.major }}</p>{% else %}<p>Major not provided</p>{% endif %}
-          <h6>{{ officer.title }}</h6>
+          <h6>{{ officer.role }}</h6>
         </div>
       </div>
       {% endfor %}
@@ -50,7 +50,7 @@ permalink: /about/
           <h5>{{ member.name }}</h5>
           {% if member.email %}<a href="mailto:{{ member.email }}">{{ member.email }}</a>{% else %}<a href="#">Email not provided</a>{% endif %}
           {% if member.major %}<p>{{ member.major }}</p>{% else %}<p>Major not provided</p>{% endif %}
-          <h6>{{ member.title }}</h6>
+          <h6>{{ member.role }}</h6>
         </div>
       </div>
       {% endfor %}
