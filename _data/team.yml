@@ -1,7 +1,7 @@
 officers:
   - role: President
     name: Marshal Hayes
-    major: Math & CS
+    info: Math & CS
     email: mhayes8@memphis.edu
     image: "assets/images/marshal.jpeg"
   - role: Vice President
@@ -9,54 +9,57 @@ officers:
   - role: Treasurer
     name: Vacant
   - role: Faculty Sponsor
-    name: Vacant
+    name: Deepak Venugopal
+    info: PhD in CS, Assistant Professor
+    email: dvngopal@memphis.edu
+    image: "assets/images/dvngopal.jpg"
 
 members:
   - name: Christine Lee
-    major:
+    info:
     role:
     email: ""
   - name: Kareem Dasilva
-    major:
+    info:
     role:
     email: ""
   - name: Eli Guevarra
-    major:
+    info:
     role:
     email: ""
   - name: Zije Liu
-    major:
+    info:
     role:
     email: ""
   - name: Ryan Wickman
-    major:
+    info:
     role:
     email: ""
   - name: Sameer Neupane
-    major:
+    info:
     role:
     email: ""
   - name: Jacob Hayes
-    major:
+    info:
     role:
     email: ""
   - name: Melaati Jayah
-    major:
+    info:
     role:
     email: ""
   - name: Susan Parker
-    major:
+    info:
     role:
     email: ""
   - name: Yucheng Zhang
-    major:
+    info:
     role:
     email: ""
   - name: Rick DeSaussure
-    major:
+    info:
     role:
     email: ""
   - name: Carrie Atkins
-    major:
+    info:
     role:
     email: ""
