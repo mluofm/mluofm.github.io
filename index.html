@@ -24,8 +24,8 @@ layout: landing
           <div class="team-member-item text-center">
             <img class="img-fluid rounded mb-3" src="{% if officer.image %}{{ officer.image | absolute_url }}{% else %}{{ 'assets/images/person.png' | absolute_url }}{% endif %}"/>
             <h5>{{ officer.name }}</h5>
-            {% if officer.email %}<a href="mailto:{{ officer.email }}">{{ officer.email }}</a>{% else %}<a href="#">Email not provided</a>{% endif %}
-            {% if officer.major %}<p>{{ officer.major }}</p>{% else %}<p>Major not provided</p>{% endif %}
+            {% if officer.email %}<a href="mailto:{{ officer.email }}">{{ officer.email }}</a>{% else %}<a></a>{% endif %}
+            {% if officer.info %}<p>{{ officer.info }}</p>{% else %}<p></p>{% endif %}
             <h6>{{ officer.role }}</h6>
           </div>
         </div>
