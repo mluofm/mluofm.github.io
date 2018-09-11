@@ -4,12 +4,33 @@ permalink: /
 layout: landing
 ---
 
-<div class="jumbotron jumbotron-fluid">
+<div class="jumbotron jumbotron-fluid mb-0">
   <div class="container">
     <h1 class="display-4">Welcome to <span style="color: rgb(161, 95,	251);">{{ site.title.short }}</span></h1>
     <h2 class="display-5">{{ site.description }}</h2>
     <p class="lead">We collaborate on ML projects, publish research papers, and represent the ML community at Memphis.</p>
     <a class="btn btn-primary btn-lg" href="{{ site.url }}/about/" role="button">About Us</a>
     <a class="btn btn-secondary btn-lg" href="{{ site.url }}/projects/" role="button">Our Projects</a>
+  </div>
+</div>
+
+<div class="container-fluid featured bg-primary">
+  <div class="text-center">
+    <h2>Officers</h2>
+    <div class="rounded-container bg-white">
+      <div class="d-flex flex-wrap">
+        {% for officer in site.data.team.officers %}
+        <div class="p-1 m-auto">
+          <div class="team-member-item text-center">
+            <img class="img-fluid rounded mb-3" src="{% if officer.image %}{{ officer.image | absolute_url }}{% else %}{{ 'assets/images/person.png' | absolute_url }}{% endif %}"/>
+            <h5>{{ officer.name }}</h5>
+            {% if officer.email %}<a href="mailto:{{ officer.email }}">{{ officer.email }}</a>{% else %}<a href="#">Email not provided</a>{% endif %}
+            {% if officer.major %}<p>{{ officer.major }}</p>{% else %}<p>Major not provided</p>{% endif %}
+            <h6>{{ officer.role }}</h6>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
   </div>
 </div>

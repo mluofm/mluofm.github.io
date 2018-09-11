@@ -7,14 +7,8 @@ $theme-colors: (
   "danger": #ff4136
 );
 
-html {
-  position: relative;
-  min-height: 100%;
-}
-
-body, main {
-  padding: 0;
-  margin-bottom: 60px; /* Margin bottom by footer height */
+@function theme-color($key: "primary") {
+  @return map-get($theme-colors, $key);
 }
 
 .team-member-item {
@@ -25,9 +19,6 @@ body, main {
   .team-member-item img {
     max-height: 150px;
     max-width: 150px;
-  }
-  .team-member-item:hover {
-    background-color: #f8f9fa;
   }
 
 section.featured {
@@ -49,5 +40,18 @@ section.featured {
     text-align: center;
     padding: 25vh 0 25vh 0;
   }
+
+.featured {
+  padding: 2em;
+}
+  .featured h2 {
+    padding-bottom: .8em;
+    color: #fff;
+  }
+
+.rounded-container {
+  padding: 15px;
+  border-radius: 1em;
+}
 
 @import 'bootstrap/scss/bootstrap';
