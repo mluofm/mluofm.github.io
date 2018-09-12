@@ -18,7 +18,7 @@ title:
   short: "ML@UofM"
 description: The student-lead Machine Learning club at the University of Memphis
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://mluofm.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 social:
   github: mluofm
