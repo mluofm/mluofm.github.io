@@ -20,6 +20,8 @@ description: The student-lead Machine Learning club at the University of Memphis
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mluofm.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
+gtag: "UA-125845035-1"
+
 social:
   github: mluofm
 
