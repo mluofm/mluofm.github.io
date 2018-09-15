@@ -15,51 +15,59 @@ officers:
     image: "assets/images/dvngopal.jpg"
 
 members:
+  - name: Nathan Martin
+    info:
+    role: Member
+    email: ""
+  - name: Dung Manh Le
+    info:
+    role: Member
+    email: ""
   - name: Christine Lee
     info:
-    role:
+    role: Member
     email: ""
   - name: Kareem Dasilva
     info:
-    role:
+    role: Member
     email: ""
   - name: Eli Guevarra
     info:
-    role:
+    role: Member
     email: ""
   - name: Zije Liu
     info:
-    role:
+    role: Member
     email: ""
   - name: Ryan Wickman
     info:
-    role:
+    role: Member
     email: ""
   - name: Sameer Neupane
     info:
-    role:
+    role: Member
     email: ""
   - name: Jacob Hayes
     info:
-    role:
+    role: Member
     email: ""
   - name: Melaati Jayah
     info:
-    role:
+    role: Associate Member
     email: ""
   - name: Susan Parker
     info:
-    role:
+    role: Member
     email: ""
   - name: Yucheng Zhang
     info:
-    role:
+    role: Member
     email: ""
   - name: Rick DeSaussure
     info:
-    role:
+    role: Member
     email: ""
   - name: Carrie Atkins
     info:
-    role:
+    role: Member
     email: ""
