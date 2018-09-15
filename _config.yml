@@ -25,6 +25,10 @@ gtag: "UA-125845035-1"
 social:
   github: mluofm
 
+collections:
+  projects:
+    output: true
+
 # Build settings
 markdown: kramdown
 plugins:
