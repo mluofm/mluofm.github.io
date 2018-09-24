@@ -5,7 +5,10 @@ officers:
     email: mhayes8@memphis.edu
     image: "assets/images/marshal.jpeg"
   - role: Vice President
-    name: Vacant
+    name: Ryan Wickman
+    info: Computer Science
+    email: rwickman@memphis.edu
+    image: "assets/images/ryan-wickman.jpeg"
   - role: Treasurer
     name: Vacant
   - role: Faculty Sponsor
