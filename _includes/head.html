@@ -1,6 +1,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="{{ site.title.long }}">
+  <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:image" content="{{ 'assets/images/uofm.jpg' | absolute_url }}">
+  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}">
+
   {% if page.title %}<title>{{ page.title }} | {{ site.title.short }}</title>
   {% else %}<title>{{ site.title.long }}</title>{% endif %}
   <link rel="stylesheet" type="text/css" href="{{ 'assets/stylesheets/custom.css' | absolute_url }}">
