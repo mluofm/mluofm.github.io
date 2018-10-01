@@ -18,59 +18,99 @@ officers:
     image: "assets/images/dvngopal.jpg"
 
 members:
+  - name: Rabin Banjade
+    info:
+    role:
+    email: ""
+  - name: Brandon O Ellis
+    info:
+    role:
+    email: ""
+  - name: Zachary Walters
+    info:
+    role:
+    email: ""
+  - name: Jeff Atkinson
+    info:
+    role:
+    email: ""
+  - name: Tyler Moore
+    info:
+    role:
+    email: ""
+  - name: Sean Kugele
+    info:
+    role:
+    email: ""
+  - name: Ali Salehi
+    info:
+    role:
+    email: ""
+  - name: Thi Phan
+    info:
+    role:
+    email: ""
+  - name: Naeem Khoshnevis
+    info:
+    role:
+    email: ""
+  - name: Zannatul Firdous
+    info:
+    role:
+    email: ""
   - name: Nathan Martin
     info:
-    role: Member
-    email: ""
-  - name: Dung Manh Le
-    info:
-    role: Member
+    role:
     email: ""
   - name: Christine Lee
     info:
-    role: Member
+    role:
     email: ""
   - name: Kareem Dasilva
     info:
-    role: Member
+    role:
     email: ""
   - name: Eli Guevarra
     info:
-    role: Member
+    role:
     email: ""
   - name: Zije Liu
     info:
-    role: Member
-    email: ""
-  - name: Ryan Wickman
-    info:
-    role: Member
+    role:
     email: ""
   - name: Sameer Neupane
     info:
-    role: Member
+    role:
     email: ""
   - name: Jacob Hayes
     info:
-    role: Member
+    role:
     email: ""
   - name: Melaati Jayah
     info:
-    role: Associate Member
+    role:
     email: ""
   - name: Susan Parker
     info:
-    role: Member
+    role:
     email: ""
   - name: Yucheng Zhang
     info:
-    role: Member
+    role:
     email: ""
   - name: Rick DeSaussure
     info:
-    role: Member
+    role:
     email: ""
   - name: Carrie Atkins
     info:
-    role: Member
+    role:
+    email: ""
+  - name: Juan Mayen Maldonado
+    info:
+    role:
+    email: ""
+  - name: Hanieh Shabanian
+    info:
+    role:
     email: ""

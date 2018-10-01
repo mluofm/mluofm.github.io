@@ -27,6 +27,12 @@ $theme-colors: (
     max-width: 150px;
   }
 
+  .team-member-item img.small {
+    max-height: 100px;
+    max-width: 100px;
+  }
+
+
 .bg-involved {
   position: relative;
   height: calc(100vh - 56px);
