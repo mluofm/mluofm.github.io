@@ -10,7 +10,10 @@ officers:
     email: rwickman@memphis.edu
     image: "assets/images/ryan-wickman.jpeg"
   - role: Treasurer
-    name: Vacant
+    name: Matthew Ballard
+    info: Computer Science
+    email: mbllard4@memphis.edu
+    image: "assets/images/matthew-ballard.jpeg"
   - role: Faculty Sponsor
     name: Deepak Venugopal
     info: PhD in CS, Assistant Professor
