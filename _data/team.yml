@@ -85,6 +85,7 @@ members:
     info:
     role:
     email: ""
+    image: "assets/images/sameer-neupane.jpg"
   - name: Jacob Hayes
     info:
     role:

@@ -39,7 +39,7 @@ permalink: /about/
       {% for member in members %}
       <div class="p-1 m-auto">
         <div class="team-member-item text-center">
-          <img class="img-fluid small rounded mb-3" src="{% if officer.image %}{{ officer.image | absolute_url }}{% else %}{{ 'assets/images/person.png' | absolute_url }}{% endif %}"/>
+          <img class="img-fluid small rounded mb-3" src="{% if member.image %}{{ member.image | absolute_url }}{% else %}{{ 'assets/images/person.png' | absolute_url }}{% endif %}"/>
           <h5>{{ member.name }}</h5>
           <a href="mailto:{{ member.email }}">{{ member.email }}</a>
           <p>{{ member.info }}</p>
