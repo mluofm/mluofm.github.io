@@ -21,100 +21,73 @@ officers:
     image: "assets/images/dvngopal.jpg"
 
 members:
-  - name: Rabin Banjade
-    info:
-    role:
-    email: ""
-  - name: Brandon O Ellis
-    info:
-    role:
-    email: ""
-  - name: Zachary Walters
-    info:
-    role:
-    email: ""
-  - name: Jeff Atkinson
-    info:
-    role:
-    email: ""
-  - name: Tyler Moore
-    info:
-    role:
-    email: ""
-  - name: Sean Kugele
-    info:
-    role:
-    email: ""
-  - name: Ali Salehi
-    info:
-    role:
-    email: ""
-  - name: Thi Phan
-    info:
-    role:
-    email: ""
-  - name: Naeem Khoshnevis
-    info:
-    role:
-    email: ""
-  - name: Zannatul Firdous
-    info:
-    role:
-    email: ""
-  - name: Nathan Martin
-    info:
-    role:
-    email: ""
-  - name: Christine Lee
-    info:
-    role:
-    email: ""
-  - name: Kareem Dasilva
-    info:
-    role:
-    email: ""
-  - name: Eli Guevarra
-    info:
-    role:
-    email: ""
-  - name: Zije Liu
-    info:
-    role:
-    email: ""
-  - name: Sameer Neupane
-    info:
-    role:
-    email: ""
-    image: "assets/images/sameer-neupane.jpg"
-  - name: Jacob Hayes
-    info:
-    role:
-    email: ""
-  - name: Melaati Jayah
-    info:
-    role:
-    email: ""
-  - name: Susan Parker
-    info:
-    role:
-    email: ""
-  - name: Yucheng Zhang
-    info:
-    role:
-    email: ""
-  - name: Rick DeSaussure
-    info:
-    role:
-    email: ""
-  - name: Carrie Atkins
-    info:
-    role:
-    email: ""
-  - name: Juan Mayen Maldonado
-    info:
-    role:
-    email: ""
-  - name: Hanieh Shabanian
-    info:
-    role:
-    email: ""
+- name: Albert Nguyen
+  email: ""
+  info: ""
+- name: Carrie Atkins
+  email: ""
+  info: ""
+- name: Christine Lee
+  email: ""
+  info: ""
+- name: Eli Guevarra
+  email: ""
+  info: ""
+- name: Hanieh Shabanian
+  email: ""
+  info: ""
+- name: Jacob Hayes
+  email: ""
+  info: ""
+- name: Juan Mayen Maldonado
+  email: ""
+  info: ""
+- name: Kareem Dasilva
+  email: ""
+  info: ""
+- name: Khan Al-Farabi
+  email: ""
+  info: ""
+- name: Melaati Jayah
+  email: ""
+  info: ""
+- name: Naeem Khoshnevis
+  email: ""
+  info: ""
+- name: Nathan Martin
+  email: ""
+  info: ""
+- name: Peyton Warren
+  email: ""
+  info: ""
+- name: Rick DeSaussure
+  email: ""
+  info: ""
+- name: Sameer Neupane
+  email: ""
+  info: ""
+  image: "assets/images/sameer-neupane.jpg"
+- name: Susan Parker
+  email: ""
+  info: ""
+- name: Thi Phan
+  email: ""
+  info: ""
+- name: Tyler Moore
+  email: ""
+  info: ""
+- name: Varun Negandhi
+  email: ""
+  info: ""
+- name: Yucheng Zhang
+  email: ""
+  info: ""
+- name: Zach Walters
+  email: ""
+  info: ""
+- name: Zannatul Firdous
+  email: ""
+  info: ""
+- name: Zije Liu
+  email: ""
+  info: ""
