@@ -31,46 +31,48 @@ permalink: /about/
   </div>
 </div>
 
-<div class="container-fluid featured bg-primary">
-  <h2 class="text-white text-center">Members</h2>
-  <div class="rounded-container bg-white">
-    <div class="d-flex flex-wrap">
-      {% assign members = site.data.team.members | sort: 'name' %}
-      {% for member in members %}
-      <div class="p-1 m-auto">
-        <div class="team-member-item text-center">
-          <img class="img-fluid small rounded mb-3" src="{% if member.image %}{{ member.image | absolute_url }}{% else %}{{ 'assets/images/person.png' | absolute_url }}{% endif %}"/>
-          <h5>{{ member.name }}</h5>
-          <a href="mailto:{{ member.email }}">{{ member.email }}</a>
-          <p>{{ member.info }}</p>
-          <h6>{{ member.role }}</h6>
+<div class="container-fluid" style="padding: 0;">
+  <div class="featured bg-primary">
+    <h2 class="text-white text-center">Members</h2>
+    <div class="rounded-container bg-white">
+      <div class="d-flex flex-wrap">
+        {% assign members = site.data.team.members | sort: 'name' %}
+        {% for member in members %}
+        <div class="p-1 m-auto">
+          <div class="team-member-item text-center">
+            <img class="img-fluid small rounded mb-3" src="{% if member.image %}{{ member.image | absolute_url }}{% else %}{{ 'assets/images/person.png' | absolute_url }}{% endif %}"/>
+            <h5>{{ member.name }}</h5>
+            <a href="mailto:{{ member.email }}">{{ member.email }}</a>
+            <p>{{ member.info }}</p>
+            <h6>{{ member.role }}</h6>
+          </div>
         </div>
+        {% endfor %}
       </div>
-      {% endfor %}
     </div>
   </div>
-</div>
 
-<div class="container-fluid featured bg-lemon-yellow">
-  <h2 class="text-center">Join Us!</h2>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 order-md-1 order-2">
-        <p>Our organization consists of individuals of all skill sets and backgrounds.
-          You do not need any prior knowledge in Machine Learning or Computer Science in order to join. In fact, we believe <em>anyone</em>
-          can gain a relatively comprehensive understanding of basic Machine Learning
-          algorithms and techniques by being a part of our organization.</p>
-        <p>Our members explore Machine Learning algorithms and techniques, collaborate on
-          real-world problems involving Machine Learning, and contribute to research in the field on a daily basis.</p>
-        <p>We explore ideas involving Neural Networks, Deep Learning, Distributed Training, Model Serving, and more!</p>
-        <p class="lead">We are always looking for new members. Submit an application for
-          membership and we can begin working on the hottest topic in Computer Science!</p>
-        <a class="btn btn-teal-deer btn-lg" href="/joining/application/">Apply for Membership</a>
-      </div>
-      <div class="col-md-6 order-md-2 order-1">
-        <a href="https://towardsdatascience.com/selecting-the-best-machine-learning-algorithm-for-your-regression-problem-20c330bad4ef">
-          <img class="img-fluid pb-2 pt-2" src="{{ 'assets/images/a-robot-learning.png' | relative_url }}">
-        </a>
+  <div class="featured bg-lemon-yellow">
+    <h2 class="text-center">Join Us!</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 order-md-1 order-2">
+          <p>Our organization consists of individuals of all skill sets and backgrounds.
+            You do not need any prior knowledge in Machine Learning or Computer Science in order to join. In fact, we believe <em>anyone</em>
+            can gain a relatively comprehensive understanding of basic Machine Learning
+            algorithms and techniques by being a part of our organization.</p>
+          <p>Our members explore Machine Learning algorithms and techniques, collaborate on
+            real-world problems involving Machine Learning, and contribute to research in the field on a daily basis.</p>
+          <p>We explore ideas involving Neural Networks, Deep Learning, Distributed Training, Model Serving, and more!</p>
+          <p class="lead">We are always looking for new members. Submit an application for
+            membership and we can begin working on the hottest topic in Computer Science!</p>
+          <a class="btn btn-teal-deer btn-lg" href="/joining/application/">Apply for Membership</a>
+        </div>
+        <div class="col-md-6 order-md-2 order-1">
+          <a href="https://towardsdatascience.com/selecting-the-best-machine-learning-algorithm-for-your-regression-problem-20c330bad4ef">
+            <img class="img-fluid pb-2 pt-2" src="{{ 'assets/images/a-robot-learning.png' | relative_url }}">
+          </a>
+        </div>
       </div>
     </div>
   </div>

@@ -22,72 +22,87 @@ officers:
 
 members:
 - name: Albert Nguyen
-  email: ""
-  info: ""
+  email: nguyen11@memphis.edu
+  info: Member
 - name: Carrie Atkins
-  email: ""
-  info: ""
+  email: chatkins@memphis.edu
+  info: Member
 - name: Christine Lee
-  email: ""
-  info: ""
+  email: cdlee5@memphis.edu
+  info: Member
 - name: Eli Guevarra
-  email: ""
-  info: ""
+  email: elijah.g@memphis.edu
+  info: Member
 - name: Hanieh Shabanian
-  email: ""
-  info: ""
+  email: hshbnian@memphis.edu
+  info: Member
 - name: Jacob Hayes
-  email: ""
-  info: ""
+  email: jhayes12@memphis.edu
+  info: Member
 - name: Juan Mayen Maldonado
-  email: ""
-  info: ""
+  email: jmynlmdn@memphis.edu
+  info: Member
 - name: Kareem Dasilva
-  email: ""
-  info: ""
+  email: kdasilva@memphis.edu
+  info: Member
 - name: Khan Al-Farabi
-  email: ""
-  info: ""
+  email: kfarabi@memphis.edu
+  info: Member
 - name: Melaati Jayah
-  email: ""
-  info: ""
+  email: fathimajayah876@gmail.com
+  info: Associate Member
 - name: Naeem Khoshnevis
-  email: ""
-  info: ""
+  email: nkhshnvs@memphis.edu
+  info: Member
 - name: Nathan Martin
-  email: ""
-  info: ""
+  email: nmrtin11@memphis.edu
+  info: Member
 - name: Peyton Warren
-  email: ""
-  info: ""
+  email: pwarren2@memphis.edu
+  info: Member
 - name: Rick DeSaussure
-  email: ""
-  info: ""
+  email: rldsssre@memphis.edu
+  info: Member
 - name: Sameer Neupane
-  email: ""
-  info: ""
+  email: sneupane@memphis.edu
+  info: Member
   image: "assets/images/sameer-neupane.jpg"
 - name: Susan Parker
-  email: ""
-  info: ""
+  email: sparker4@memphis.edu
+  info: Member
 - name: Thi Phan
-  email: ""
-  info: ""
+  email: ttphan@memphis.edu
+  info: Member
 - name: Tyler Moore
-  email: ""
-  info: ""
+  email: tgmoore@memphis.edu
+  info: Member
 - name: Varun Negandhi
-  email: ""
-  info: ""
+  email: vsngndhi@memphis.edu
+  info: Member
 - name: Yucheng Zhang
-  email: ""
-  info: ""
+  email: yzhang@memphis.edu
+  info: Member
 - name: Zach Walters
-  email: ""
-  info: ""
+  email: zpwlters@memphis.edu
+  info: Member
 - name: Zannatul Firdous
-  email: ""
-  info: ""
+  email: zfirdous@memphis.edu
+  info: Member
 - name: Zije Liu
-  email: ""
-  info: ""
+  email: zliu6@memphis.edu
+  info: Member
+- name: Brandon Ellis
+  info: Member
+  email: boellis@memphis.edu
+- name: Rabin Banjade
+  info: Member
+  email: rbnjade1@memphis.edu
+- name: Jeff Atkinson
+  info: Member
+  email: jeff.atkinson@memphis.edu
+- name: Sean Kugele
+  info: Member
+  email: skugele@memphis.edu
+- name: Ali Salehi
+  info: Member
+  email: ali.salehi@memphis.edu
