@@ -21,6 +21,12 @@ officers:
     image: "assets/images/dvngopal.jpg"
 
 members:
+- name: Jacob Hunt
+  email: jbhunt1@memphis.edu
+  info: Member
+- name: Senjuti Dutta
+  email: senjuti.d@memphis.edu
+  info: Member
 - name: Albert Nguyen
   email: nguyen11@memphis.edu
   info: Member
