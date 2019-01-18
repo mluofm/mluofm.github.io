@@ -7,7 +7,8 @@ permalink: /about/
 <div class="container-fluid bg-involved">
   <div class="container centered text-center" style="max-width: 700px;">
     <h1 class="display-4">About Us</h1>
-    <p class="lead">We are a student-lead organization based at The University of Memphis collaborating on Machine Learning projects and contributing to ML research.</p>
+    <p class="lead">We are a student-lead organization based at The University of Memphis collaborating on Machine
+      Learning projects and contributing to ML research.</p>
     <a class="btn btn-secondary btn-lg" href="/projects/">Our Projects</a>
     <a class="btn btn-primary btn-lg" href="/joining/">Join Us!</a>
   </div>
@@ -20,7 +21,7 @@ permalink: /about/
     {% for officer in site.data.team.officers %}
     <div class="p-1 m-auto">
       <div class="team-member-item text-center">
-        <img class="img-fluid rounded mb-3" src="{% if officer.image %}{{ officer.image | absolute_url }}{% else %}{{ 'assets/images/person.png' | absolute_url }}{% endif %}"/>
+        <img class="img-fluid rounded mb-3" src="{% if officer.image %}{{ officer.image | absolute_url }}{% else %}{{ 'assets/images/person.png' | absolute_url }}{% endif %}" />
         <h5>{{ officer.name }}</h5>
         <a href="mailto:{{ officer.email }}">{{ officer.email }}</a>
         <p>{{ officer.info }}</p>
@@ -40,7 +41,7 @@ permalink: /about/
         {% for member in members %}
         <div class="p-1 m-auto">
           <div class="team-member-item text-center">
-            <img class="img-fluid small rounded mb-3" src="{% if member.image %}{{ member.image | absolute_url }}{% else %}{{ 'assets/images/person.png' | absolute_url }}{% endif %}"/>
+            <img class="img-fluid small rounded mb-3" src="{% if member.image %}{{ member.image | absolute_url }}{% else %}{{ 'assets/images/person.png' | absolute_url }}{% endif %}" />
             <h5>{{ member.name }}</h5>
             <a href="mailto:{{ member.email }}">{{ member.email }}</a>
             <p>{{ member.info }}</p>
@@ -58,7 +59,8 @@ permalink: /about/
       <div class="row">
         <div class="col-md-6 order-md-1 order-2">
           <p>Our organization consists of individuals of all skill sets and backgrounds.
-            You do not need any prior knowledge in Machine Learning or Computer Science in order to join. In fact, we believe <em>anyone</em>
+            You do not need any prior knowledge in Machine Learning or Computer Science in order to join. In fact, we
+            believe <em>anyone</em>
             can gain a relatively comprehensive understanding of basic Machine Learning
             algorithms and techniques by being a part of our organization.</p>
           <p>Our members explore Machine Learning algorithms and techniques, collaborate on
