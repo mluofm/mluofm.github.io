@@ -21,8 +21,9 @@
       {% endfor %}
     </ul>
     <span class="navbar-text">
-      {% if site.social.github %}<a href="//github.com/{{ site.social.github }}"><i class="fab fa-github fa-lg"></i></a>{% endif %}
-      {% if site.social.twitter %}<a href="//twitter.com/{{ site.social.twitter }}"><i class="fab fa-twitter fa-lg"></i></a>{% endif %}
+      {% if site.social.slack %}<a href="//{{ site.social.slack }}.slack.com" title="{{ site.social.slack }} on Slack"><i class="fab fa-slack fa-lg"></i></a>{% endif %}
+      {% if site.social.github %}<a href="//github.com/{{ site.social.github }}" title="{{ site.social.github }} on GitHub"><i class="fab fa-github fa-lg"></i></a>{% endif %}
+      {% if site.social.twitter %}<a href="//twitter.com/{{ site.social.twitter }}" title="{{ site.social.twitter }} on Twitter"><i class="fab fa-twitter fa-lg"></i></a>{% endif %}
     </span>
   </div>
 </nav>

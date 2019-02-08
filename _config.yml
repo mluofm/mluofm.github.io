@@ -23,6 +23,7 @@ url: "https://mluofm.github.io" # the base hostname & protocol for your site, e.
 gtag: "UA-125845035-1"
 
 social:
+  slack: mluofm
   github: mluofm
 
 collections:
