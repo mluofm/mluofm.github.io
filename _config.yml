@@ -16,7 +16,7 @@
 title:
   long: Machine Learning at the University of Memphis
   short: "ML@UofM"
-description: The student-lead Machine Learning club at the University of Memphis
+description: The student-led Machine Learning club at the University of Memphis
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mluofm.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -37,8 +37,6 @@ plugins:
 sass:
   sass_dir: _sass
   style: compressed
-
-
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
