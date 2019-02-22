@@ -5,10 +5,10 @@
 
 $body-bg: #fff;
 $theme-colors: (
-  "primary": rgb(161, 95,	251),
+  "primary": rgb(161, 95, 251),
   "danger": #ff4136,
-  "teal-deer": #96E6B3,
-  "lemon-yellow": #F7F052
+  "teal-deer": #96e6b3,
+  "lemon-yellow": #f7f052
 );
 
 @function theme-color($key: "primary") {
@@ -20,44 +20,45 @@ $theme-colors: (
 .team-member-item {
   min-width: 200px;
   max-width: 200px;
-  padding: .5em;
+  padding: 0.5em;
 }
-  .team-member-item img {
-    max-height: 150px;
-    max-width: 150px;
-  }
+.team-member-item img {
+  max-height: 150px;
+  max-width: 150px;
+}
 
-  .team-member-item img.small {
-    max-height: 100px;
-    max-width: 100px;
-  }
-
+.team-member-item img.small {
+  max-height: 100px;
+  max-width: 100px;
+}
 
 .bg-involved {
   position: relative;
   height: calc(100vh - 56px);
-  background: linear-gradient(
-    rgba(0, 0, 0, 0.45),
-    rgba(0, 0, 0, 0.45)
-  ), url("../images/involved.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url("../images/involved.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
 }
-  .bg-involved h1, h2, h3, h4 {
-    color: #fff;
-  }
-  .bg-involved p, a {
-    color: #eee;
-  }
+.bg-involved h1,
+h2,
+h3,
+h4 {
+  color: #fff;
+}
+.bg-involved p,
+a {
+  color: #eee;
+}
 
 .featured {
   padding: 2em;
 }
-  .featured h2 {
-    padding-bottom: .8em;
-  }
+.featured h2 {
+  padding-bottom: 0.8em;
+}
 
 .rounded-container {
   padding: 15px;
@@ -66,8 +67,9 @@ $theme-colors: (
 
 .centered {
   position: absolute;
-  top: 50%; left: 50%;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
 }
 
-@import 'bootstrap/scss/bootstrap';
+@import "bootstrap/scss/bootstrap";

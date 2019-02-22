@@ -9,6 +9,7 @@ permalink: /joining/
 ## Requirements
 
 In order to be a part of our organization, the following requirements must be met:
+
 - Full-time or part-time student currently enrolled at the University of Memphis
   - All students must have and maintain a cumulative GPA of at least 2.0
   - All students must have and maintain a good standing with the University
