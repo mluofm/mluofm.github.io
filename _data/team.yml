@@ -21,95 +21,98 @@ officers:
     image: "assets/images/dvngopal.jpg"
 
 members:
-- name: Jacob Hunt
-  email: jbhunt1@memphis.edu
-  info: Member
-- name: Senjuti Dutta
-  email: senjuti.d@memphis.edu
-  info: Member
-- name: Albert Nguyen
-  email: nguyen11@memphis.edu
-  info: Member
-- name: Carrie Atkins
-  email: chatkins@memphis.edu
-  info: Member
-- name: Christine Lee
-  email: cdlee5@memphis.edu
-  info: Member
-- name: Eli Guevarra
-  email: elijah.g@memphis.edu
-  info: Member
-- name: Hanieh Shabanian
-  email: hshbnian@memphis.edu
-  info: Member
-- name: Jacob Hayes
-  email: jhayes12@memphis.edu
-  info: Member
-- name: Juan Mayen Maldonado
-  email: jmynlmdn@memphis.edu
-  info: Member
-- name: Kareem Dasilva
-  email: kdasilva@memphis.edu
-  info: Member
-- name: Khan Al-Farabi
-  email: kfarabi@memphis.edu
-  info: Member
-- name: Melaati Jayah
-  email: fathimajayah876@gmail.com
-  info: Associate Member
-- name: Naeem Khoshnevis
-  email: nkhshnvs@memphis.edu
-  info: Member
-- name: Nathan Martin
-  email: nmrtin11@memphis.edu
-  info: Member
-- name: Peyton Warren
-  email: pwarren2@memphis.edu
-  info: Member
-- name: Rick DeSaussure
-  email: rldsssre@memphis.edu
-  info: Member
-- name: Sameer Neupane
-  email: sneupane@memphis.edu
-  info: Member
-  image: "assets/images/sameer-neupane.jpg"
-- name: Susan Parker
-  email: sparker4@memphis.edu
-  info: Member
-  image: "assets/images/susan-parker.jpg"
-- name: Thi Phan
-  email: ttphan@memphis.edu
-  info: Member
-- name: Tyler Moore
-  email: tgmoore@memphis.edu
-  info: Member
-- name: Varun Negandhi
-  email: vsngndhi@memphis.edu
-  info: Member
-- name: Yucheng Zhang
-  email: yzhang@memphis.edu
-  info: Member
-- name: Zach Walters
-  email: zpwlters@memphis.edu
-  info: Member
-- name: Zannatul Firdous
-  email: zfirdous@memphis.edu
-  info: Member
-- name: Zije Liu
-  email: zliu6@memphis.edu
-  info: Member
-- name: Brandon Ellis
-  info: Member
-  email: boellis@memphis.edu
-- name: Rabin Banjade
-  info: Member
-  email: rbnjade1@memphis.edu
-- name: Jeff Atkinson
-  info: Member
-  email: jeff.atkinson@memphis.edu
-- name: Sean Kugele
-  info: Member
-  email: skugele@memphis.edu
-- name: Ali Salehi
-  info: Member
-  email: ali.salehi@memphis.edu
+  - name: Albert Nguyen
+    info: Member
+    github: tigerANrex
+  - name: Ali Salehi
+    info: Member
+  - name: Avery Clary
+    info: Member
+    github: Mew1626
+  - name: Brandon Ellis
+    info: Member
+  - name: Carrie Atkins
+    info: Member
+  - name: Christine Lee
+    info: Member
+  - name: Corey Bedell
+    info: Member
+    github: Kairofall
+  - name: Eli Guevarra
+    info: Member
+  - name: Hanieh Shabanian
+    info: Member
+  - name: Jacob Hayes
+    info: Member
+  - name: Jacob Hunt
+    info: Member
+    github: quilliry
+  - name: Jeff Atkinson
+    info: Member
+  - name: Juan Mayen Maldonado
+    info: Member
+  - name: Kareem Dasilva
+    info: Member
+  - name: Khan Al-Farabi
+    info: Member
+  - name: Lasang Jimba Tamang
+    info: Member
+    github: ljtamang
+  - name: Manoj Chandrasekharan
+    info: Member
+  - name: Masoumeh Heidari Kapourchali
+    info: Member
+  - name: Melaati Jayah
+    info: Associate Member
+  - name: Murchana Baruah
+    info: Member
+  - name: Naeem Khoshnevis
+    info: Associate Member
+    github: naeemkh
+  - name: Nathan Martin
+    info: Member
+    github: nathanjmartin
+  - name: Peyton Warren
+    info: Member
+    github: pwarren97
+  - name: Rabin Banjade
+    info: Member
+  - name: Rick DeSaussure
+    info: Associate Member
+  - name: Ryan Wickman
+    info: Member
+  - name: Sajib Sen
+    info: Member
+    github: Sen2k9
+  - name: Sameer Neupane
+    info: Member
+    image: "assets/images/sameer-neupane.jpg"
+  - name: Sean Kugele
+    info: Member
+  - name: Senjuti Dutta
+    info: Member
+    github: sduyr
+  - name: Susan Parker
+    info: Member
+    image: "assets/images/susan-parker.jpg"
+    github: TzuZen
+  - name: Talha Chaudhry
+    info: Member
+    github: chaudhrytalha85
+  - name: Tayler Kirk Allen
+    info: Member
+    github: taylerallen6
+  - name: Thi Phan
+    info: Member
+    github: thiphan
+  - name: Tyler Moore
+    info: Member
+  - name: Varun Negandhi
+    info: Member
+  - name: Yucheng Zhang
+    info: Member
+  - name: Zach Walters
+    info: Member
+  - name: Zannatul Firdous
+    info: Member
+  - name: Zije Liu
