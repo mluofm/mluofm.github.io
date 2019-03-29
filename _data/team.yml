@@ -33,8 +33,6 @@ members:
     info: Member
   - name: Carrie Atkins
     info: Member
-  - name: Christine Lee
-    info: Member
   - name: Corey Bedell
     info: Member
     github: Kairofall
@@ -116,3 +114,6 @@ members:
   - name: Zannatul Firdous
     info: Member
   - name: Zije Liu
+    info: Member
+  - name: Hessam Madanipour
+    info: Member
