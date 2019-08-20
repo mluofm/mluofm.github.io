@@ -1,19 +1,19 @@
 officers:
   - role: President
-    name: Marshal Hayes
-    info: Math & CS
-    email: mhayes8@memphis.edu
-    image: "assets/images/marshal.jpeg"
+    name: Avery Clary
+    info: Computer Science
+    email: alclary@memphis.edu
+    image: 
   - role: Vice President
     name: Ryan Wickman
     info: Computer Science
     email: rwickman@memphis.edu
     image: "assets/images/ryan-wickman.jpeg"
   - role: Treasurer
-    name: Matthew Ballard
-    info: Computer Science
-    email: mbllard4@memphis.edu
-    image: "assets/images/matthew-ballard.jpeg"
+    name: Vacant
+    info: 
+    email: 
+    image: 
   - role: Faculty Sponsor
     name: Deepak Venugopal
     info: PhD in CS, Assistant Professor
@@ -25,8 +25,6 @@ members:
     info: Member
     github: tigerANrex
   - name: Ali Salehi
-    info: Member
-  - name: Avery Clary
     info: Member
     github: Mew1626
   - name: Brandon Ellis
