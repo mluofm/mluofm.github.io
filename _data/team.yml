@@ -3,16 +3,16 @@ officers:
     name: Avery Clary
     info: Computer Science
     email: alclary@memphis.edu
-    image: 
+    image: "assets/images/avery-clary.jpeg"
   - role: Vice President
     name: Ryan Wickman
     info: Computer Science
     email: rwickman@memphis.edu
     image: "assets/images/ryan-wickman.jpeg"
   - role: Treasurer
-    name: Vacant
-    info: 
-    email: 
+    name: Bethany Counce
+    info: BIT
+    email: bmcounce@memphis.edu
     image: 
   - role: Faculty Sponsor
     name: Deepak Venugopal
